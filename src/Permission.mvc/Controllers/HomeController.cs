@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Permission.mvc.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         // GET: /<controller>/
         public IActionResult Index()
