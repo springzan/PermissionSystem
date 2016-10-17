@@ -72,11 +72,7 @@ namespace Permission.mvc
                     name: "default",
                     template: "{controller=Login}/{action=Index}/{id?}");
             });
-            //app.UseMvcWithDefaultRoute();
-            //app.Run(async (context) =>
-            //{
-            //    await context.Response.WriteAsync("Hello World!");
-            //});
+
             SeedData.Initialize(app.ApplicationServices);
         }
     }
